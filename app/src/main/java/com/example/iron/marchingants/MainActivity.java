@@ -20,9 +20,8 @@ public class MainActivity extends ActionBarActivity {
 
         String [] numbers = {"two","three","four","five","six","seven","eight","nine","ten"};
 
-        for (int i = 0; i < numbers.length; i++){
-            String number = numbers [i];
-            Log.d(TAG,"Ants go marching "+number+" by "+number+". Hoorah! Hoorah!");
+        for (String number : numbers){
+                 Log.d(TAG,"Ants go marching "+number+" by "+number+". Hoorah! Hoorah!");
         }
     }
 
