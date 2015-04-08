@@ -18,7 +18,12 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        String [] numbers = {"two","three","four","five","six","seven","eight","nine","ten"};
 
+        for (int i = 0; i < numbers.length; i++){
+            String number = numbers [i];
+            Log.d(TAG,"Ants go marching "+number+" by "+number+". Hoorah! Hoorah!");
+        }
     }
 
 
