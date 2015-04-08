@@ -21,7 +21,8 @@ public class MainActivity extends ActionBarActivity {
         String [] numbers = {"two","three","four","five","six","seven","eight","nine","ten"};
 
         for (String number : numbers){
-                 Log.d(TAG,"Ants go marching "+number+" by "+number+". Hoorah! Hoorah!");
+                 String song = String.format("Ants go marching %1$s by %1$s Hoorah! Hoorah!", number);
+                 Log.d(TAG, song);
         }
     }
 
